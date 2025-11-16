@@ -139,6 +139,7 @@ function onMousemove(e) {
   function l(e) {
     // @ts-ignore
     1 == e.touches.length &&
+      // @ts-ignore
       ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY));
   }
   document.removeEventListener("mousemove", onMousemove),
