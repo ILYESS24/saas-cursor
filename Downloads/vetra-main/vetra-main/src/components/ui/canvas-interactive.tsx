@@ -204,10 +204,15 @@ var ctx: any,
     dampening: 0.025,
     tension: 0.99,
   };
+// @ts-ignore
 function Node() {
+  // @ts-ignore
   this.x = 0;
+  // @ts-ignore
   this.y = 0;
+  // @ts-ignore
   this.vy = 0;
+  // @ts-ignore
   this.vx = 0;
 }
 // @ts-ignore
